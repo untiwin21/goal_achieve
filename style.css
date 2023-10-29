@@ -1,0 +1,43 @@
+ul{
+	list-style:none;
+}
+
+/*상단 메뉴바 구역*/
+header{
+	position:fixed;
+	height:10%;
+	width:100%;
+	background-color:white;
+	display:flex;
+	border-bottom:1px solid black; 
+	z-index:1;
+}
+/*상단 메뉴바 내부 구간 구획*/
+header>div:nth-child(1){
+	position:absolute;
+	left:3%;
+}
+
+header>div:nth-child(2){
+	position:absolute;
+	width:25%;
+	right:3%;
+}
+
+header ul{
+	display:flex;
+}
+header li{
+	padding:5%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+
+.page{
+	position:relative;
+	width:100vw;
+	height:100vh;
+	background:black;
+	z-index:0;
+}
